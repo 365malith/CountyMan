@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #28a745; /* Bootstrap success color */
+    background-image: linear-gradient(180deg, #28a745 0%, #218838 100%);
+    color: white;
+    --bs-bg-opacity: 0.85;
+}
+
+header {
+    background-color: #218838;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    padding: 15px;
+    font-size: 20px;
+    margin: 15px 0;
+    width: 100%;
+    border: 2px solid #17a2b8;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #407107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #407107;
+    transform: scale(1.05);
+}
+
+#officialName, #name {
+    font-size: 28px;
+    margin-top: 25px;
+    text-shadow: 1px 1px 3
+}
